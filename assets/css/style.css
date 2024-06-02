@@ -4646,5 +4646,6 @@ img.left {
 @media (max-width: 768px) {
   .cursor {
     display: none;
+    color: transparent;
   }
 }
