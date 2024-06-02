@@ -51,7 +51,7 @@
 /* Typography
 -----------------------------------------------------------------*/
 * {
-  /* cursor: none; */
+  cursor: none;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -4639,4 +4639,12 @@ img.left {
 .selfimages{
   object-fit: cover !important;
   height: auto;
+}
+
+
+/* Cursor none in small screens */
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
 }
