@@ -1262,8 +1262,8 @@ body.loaded {
 }
 
 .nav-top .social a:hover {
-  /* background: #fff; */
-  background: #f95c39;
+  background: #fff;
+  /* background: #f95c39; */
   color: #1d1d1d;
 }
 
